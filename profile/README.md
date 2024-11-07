@@ -1,56 +1,56 @@
 # ProphecyCore
 
-**ProphecyCore** é a organização responsável pelo desenvolvimento e manutenção do projeto **Prophecy**, uma ferramenta voltada para automatizar a criação de testes unitários (TUs) para aplicações Angular, utilizando Karma e Jasmine, com base em classes. O objetivo é facilitar a criação de testes unitários, permitindo que os desenvolvedores foquem na parte lógica dos testes, enquanto a ferramenta cuida da configuração inicial e da resolução de dependências.
+**ProphecyCore** is the organization responsible for the development and maintenance of the **Prophecy** project, a tool designed to automate the creation of unit tests (UTs) for Angular applications using Karma and Jasmine, based on classes. The goal is to simplify unit test creation, allowing developers to focus on the logical part of the tests, while the tool takes care of the initial setup and dependency resolution.
 
-## Objetivos do Projeto
+## Project Goals
 
-O **Prophecy** visa oferecer uma solução inteligente para a criação de testes unitários. Atualmente, a ferramenta consegue gerar a base do teste unitário para classes Angular, resolvendo as dependências do construtor e permitindo que o desenvolvedor adicione facilmente os *its* (testes unitários). A longo prazo, o projeto pretende:
+**Prophecy** aims to provide an intelligent solution for unit test creation. Currently, the tool can generate the base unit test for Angular classes, resolving constructor dependencies and allowing the developer to easily add *its* (unit tests). In the long term, the project plans to:
 
-- Ampliar o suporte para outros frameworks JavaScript.
-- Incluir compatibilidade com bibliotecas de teste como Jest e outras.
-- Evoluir para a geração de *its* completos, aumentando a cobertura de testes.
-- **Suporte a múltiplas linguagens de programação**, além de JavaScript/TypeScript, incluindo as mais populares no mercado, como Python, Java, Ruby, entre outras.
+- Expand support for other JavaScript frameworks.
+- Include compatibility with testing libraries such as Jest and others.
+- Evolve into generating full *its*, increasing test coverage.
+- **Support for multiple programming languages**, beyond JavaScript/TypeScript, including popular ones like Python, Java, Ruby, and more.
 
-## Funcionalidades
+## Features
 
-- **Geração Automática de Testes Unitários**: Criação da estrutura básica de testes para classes Angular, com dependências do construtor já resolvidas.
-- **Integração com VSCode**: Disponibilidade como uma extensão para o editor de código Visual Studio Code, permitindo gerar rapidamente a base dos testes diretamente no ambiente de desenvolvimento.
-- **Futuro Suporte a CLI**: Transformação do projeto em uma ferramenta de linha de comando (CLI), permitindo seu uso fora do VSCode.
+- **Automatic Unit Test Generation**: Creates the basic test structure for Angular classes, with constructor dependencies already resolved.
+- **VSCode Integration**: Available as an extension for the Visual Studio Code editor, enabling quick generation of test bases directly in the development environment.
+- **Future CLI Support**: Transforming the project into a command-line interface (CLI) tool for use outside of VSCode.
 
-## Visão de Futuro
+## Vision for the Future
 
-A longo prazo, o **Prophecy** pretende se tornar uma ferramenta robusta e amplamente adotada para criação de testes unitários, com o objetivo de facilitar o trabalho dos desenvolvedores e aumentar a cobertura de testes em projetos de qualquer escala.
+In the long term, **Prophecy** aims to become a robust and widely adopted tool for unit test creation, with the goal of simplifying developers' work and increasing test coverage in projects of any scale.
 
-Além disso, há a intenção de expandir a ferramenta para ser compatível com outras bibliotecas de testes, como Jest, e até com outros frameworks JavaScript, proporcionando uma solução mais flexível e escalável.
+Additionally, the tool is intended to expand its compatibility with other testing libraries, such as Jest, and even other JavaScript frameworks, providing a more flexible and scalable solution.
 
-### Planos de Expansão
+### Expansion Plans
 
-- **Suporte a outras bibliotecas de testes**: Ampliar a compatibilidade com Jest e outras bibliotecas de testes populares.
-- **Geração de *its***: Desenvolver a capacidade de gerar automaticamente os *its* para os testes, aumentando a cobertura e a qualidade dos testes.
-- **Compatibilidade com Outras Linguagens**: A longo prazo, expandir o **Prophecy** para suportar não só JavaScript e TypeScript, mas também outras linguagens de programação populares, como Python, Java, Ruby, e mais.
+- **Support for other testing libraries**: Expand compatibility with Jest and other popular testing libraries.
+- **Generation of *its***: Develop the ability to automatically generate *its* for tests, increasing coverage and improving test quality.
+- **Compatibility with other languages**: In the long run, expand **Prophecy** to support not only JavaScript and TypeScript but also other popular programming languages like Python, Java, Ruby, and more.
 
-## Considerações Importantes
+## Important Considerations
 
-### 1. Testes Unitários: Não Estamos Driblando a Qualidade!
+### 1. Unit Tests: We're Not Skipping Quality!
 
-Uma das críticas que o **Prophecy** pode enfrentar é que, ao automatizar a criação dos testes, a qualidade do código de teste pode ser comprometida. Porém, o objetivo do **Prophecy** não é substituir o trabalho do desenvolvedor, mas agilizar a criação da estrutura básica de testes, garantindo que o desenvolvedor possa se concentrar na parte lógica dos testes, mantendo a qualidade.
+One of the critiques **Prophecy** may face is that by automating test creation, the quality of the test code could be compromised. However, the goal of **Prophecy** is not to replace the developer's work but to streamline the creation of the basic test structure, ensuring that the developer can focus on the logical part of the tests, maintaining quality.
 
-### 2. IA Generativa: Não Seria Possível Usar IA para Isso?
+### 2. Generative AI: Could AI Be Used for This?
 
-Embora ferramentas baseadas em IA possam gerar testes unitários, existem cenários em que o uso de IA não é viável devido a questões de segurança, confidencialidade ou licenciamento. O **Prophecy** não depende de IA para gerar os testes. Em vez disso, ele usa algoritmos para ler o código e gerar os testes de maneira segura e eficiente, sem a necessidade de enviar dados para servidores externos.
+Although AI-based tools can generate unit tests, there are scenarios where AI usage is not feasible due to security, confidentiality, or licensing concerns. **Prophecy** does not rely on AI to generate tests. Instead, it uses algorithms to read the code and generate tests in a safe and efficient manner, without needing to send data to external servers.
 
-## Como Contribuir
+## How to Contribute
 
-1. Fork o repositório.
-2. Crie uma branch para sua feature ou correção (`git checkout -b feature/nova-feature`).
-3. Faça suas modificações e commit (`git commit -am 'Adicionando nova feature'`).
-4. Push para a branch (`git push origin feature/nova-feature`).
-5. Abra um Pull Request.
+1. Fork the repository.
+2. Create a branch for your feature or fix (`git checkout -b feature/new-feature`).
+3. Make your modifications and commit (`git commit -am 'Adding new feature'`).
+4. Push to the branch (`git push origin feature/new-feature`).
+5. Open a Pull Request.
 
-## Licença
+## License
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+Distributed under the MIT License. See `LICENSE` for more details.
 
 ---
 
-**ProphecyCore** - Facilitando a criação de testes unitários de maneira inteligente e escalável, com foco na produtividade dos desenvolvedores e a qualidade do código!
+**ProphecyCore** – Streamlining the creation of unit tests in an intelligent and scalable way, focusing on developer productivity and code quality!
